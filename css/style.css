@@ -6,11 +6,20 @@
     box-sizing: border-box;
 }
 
+/****** UTILS ******/
+
+.p-10{
+    padding: 10px;
+}
+
 /****** BODY ******/
+
+main{
+    padding: 20px 0;
+}
 
 .container{
     min-height: 100px;
-
 }
 
 [class*='col']{
@@ -19,4 +28,12 @@
     line-height: 200px;
     background-color: pink;
     border: 1px solid black;
+}
+
+[class*='col'] [class*='col']{
+    height: 180px;
+    text-align: center;
+    line-height: 180px;
+    background-color: salmon;
+    border: 1px solid white;
 }
