@@ -183,6 +183,20 @@
     justify-content: space-evenly;
 }
 
+/* order */
+
+.first{
+    order: -1;
+}
+
+.standard-order{
+    order: 0;
+}
+
+.last{
+    order: 1;
+}
+
 /* small */
 @media screen and (min-width: 576px) {
    
@@ -329,6 +343,22 @@
     .evenl-sm{
         justify-content: space-evenly;
     }
+
+    /* order */
+
+    .first-sm{
+        order: -1;
+    }
+
+    .standard-order-sm{
+        order: 0;
+    }
+
+    .last-sm{
+        order: 1;
+    }
+
+
 
 }
 
@@ -480,6 +510,24 @@
         justify-content: space-evenly;
     }
 
+
+        /* order */
+
+        .first-md{
+            order: -1;
+        }
+    
+        .standard-order-md{
+            order: 0;
+        }
+    
+        .last-md{
+            order: 1;
+        }
+    
+    
+    
+
 }
 
 
@@ -629,5 +677,22 @@
     .evenl-lg{
         justify-content: space-evenly;
     }
+
+        /* order */
+
+        .first-lg{
+            order: -1;
+        }
+    
+        .standard-order-lg{
+            order: 0;
+        }
+    
+        .last-lg{
+            order: 1;
+        }
+    
+    
+    
 
 }
