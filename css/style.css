@@ -1,0 +1,22 @@
+/****** RESET ******/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/****** BODY ******/
+
+.container{
+    min-height: 100px;
+
+}
+
+[class*='col']{
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    background-color: pink;
+    border: 1px solid black;
+}
